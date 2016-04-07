@@ -5,7 +5,7 @@
 
 body {
     margin: 0;
-    font-size: 16px/18px;
+    font-family: 'Playfair Display', serif;
 }
 h1{
 text-align: center;
@@ -18,10 +18,29 @@ padding: 0px;
 border: 2px solid black;
 margin: 0px;
 }
+
+h2:hover {
+    background-color: #FF00FF;
+}
+h2:active{
+ background-color: #FF000F;	
+}
+
 p {
 margin:15px;
 }
 
+#header1{
+	 background-color: #F3F781;
+}
+
+#header2{
+	 background-color: #A9F5F2;
+}
+
+#header3{
+	 background-color: #F5A9D0;
+}
 
 div .section{
   background-color: #5F9EA0;
